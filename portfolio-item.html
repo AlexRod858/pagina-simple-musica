@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <meta name="description" content="" />
+    <meta name="author" content="" />
+    <title>MusicFTV</title>
+    <!-- Css -->
+    <link rel="stylesheet" href="css/styles.css" />
+    <style type="text/css">
+      .demo {
+
+        font-weight: bold;
+        color: rgb(71, 69, 69);
+        line-height: 1.5;
+        text-align: center;
+      }
+      #blink .word2,
+      .line2 {
+        color: orange;
+      }
+    </style>
+    <!-- Favicon-->
+    <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
+    <!-- Bootstrap icons-->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css"
+      rel="stylesheet"
+    />
+    <!-- Core theme CSS (includes Bootstrap)-->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <!-- jquery -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+    <script src="./js/jquery.lettering.js"></script>
+    <script>
+      $(document).ready(function () {
+        $("#letter h1").lettering("words");
+      });
+    </script>
+  </head>
+  <body class="d-flex flex-column h-100">
+    <main class="flex-shrink-0">
+      <!-- Navigation-->
+      <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container px-5">
+          <a class="navbar-brand" href="index.html">
+            <img
+              class="logo rounded-circle me-3 img-thumbnail"
+              src="./imgs/Music FTV.png"
+          /></a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link" href="index.html">Inicio</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="about.html">Nosotros</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="contact.html">Contacto</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./shop/tienda.html">Tienda</a>
+              </li>
+
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle"
+                  id="navbarDropdownPortfolio"
+                  href="#"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                  >Portfolio</a
+                >
+                <ul
+                  class="dropdown-menu dropdown-menu-end"
+                  aria-labelledby="navbarDropdownPortfolio"
+                >
+                  <li>
+                    <a class="dropdown-item" href="portfolio-overview.html"
+                      >Portafolio Conciertos</a
+                    >
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="portfolio-item.html"
+                      >Portafolio Estudio</a
+                    >
+                  </li>
+                </ul>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+      <!-- Page Content-->
+      <section class="py-5">
+        <div class="container px-5 my-5">
+          <div class="row gx-5 justify-content-center">
+            <div class="col-lg-6">
+              <div class="text-center mb-5">
+                <div id="letter">
+                  <h1 id="blink" class="fw-bolder demo">Nuestra casa</h1>
+                </div>
+                <p class="lead fw-normal text-muted mb-0">
+                  En la vida hay momentos que por sí mismos son especiales, pero
+                  siempre es mejor si puedes compartirlo con las personas a las
+                  que quieres. Por eso te agradezco que hoy estés aquí.
+                  ¡Bienvenido!
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="row gx-5">
+            <div class="col-12">
+              <img
+                class="img-fluid rounded-3 mb-5"
+                src="https://www.musicstore.com/INTERSHOP/static/WFS/MusicStore-Site/MusicStoreShop/MusicStore-MusicStoreShop/en_US/static-pages/Abteilungsinfos/Header/DJ_Header.jpg"
+                alt="..."
+              />
+            </div>
+            <div class="col-lg-6">
+              <img
+                class="img-fluid rounded-3 mb-5"
+                src="https://i.ytimg.com/vi/OL7oBKO3Gt0/maxresdefault.jpg"
+                alt="..."
+              />
+            </div>
+            <div class="col-lg-6">
+              <img
+                class="img-fluid rounded-3 mb-5"
+                src="https://i.ytimg.com/vi/f0WIFFv8J1s/maxresdefault.jpg"
+                alt="..."
+              />
+            </div>
+          </div>
+          <div class="row gx-5 justify-content-center">
+            <div class="col-lg-6">
+              <div class="text-center mb-5">
+                <p class="lead fw-normal text-muted">
+                  La amistad no es recibir, es entregar. No es criticar, es
+                  apoyar. No es ofender, es comprender. No es juzgar, es
+                  aceptar. No es guardar rencor, es perdonar. La amistad es
+                  simplemente amar. Gracias por tu amistad verdadera.
+                </p>
+                <a
+                  class="text-decoration-none"
+                  href="./portfolio-overview.html"
+                >
+                  Ver eventos
+                  <i class="bi-arrow-right"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <!-- Footer-->
+    <footer class="bg-dark py-4 mt-auto">
+      <div class="container px-5">
+        <div
+          class="row align-items-center justify-content-between flex-column flex-sm-row"
+        >
+          <div class="col-auto">
+            <div class="small m-0 text-white">
+              <a
+                rel="license"
+                href="http://creativecommons.org/licenses/by-nc/4.0/"
+                ><img
+                  alt="Licencia de Creative Commons"
+                  style="border-width: 0"
+                  src="https://i.creativecommons.org/l/by-nc/4.0/80x15.png" /></a
+              ><br />Este obra está bajo una
+              <a
+                rel="license"
+                href="http://creativecommons.org/licenses/by-nc/4.0/"
+                >licencia de Creative Commons Reconocimiento-NoComercial 4.0
+                Internacional</a
+              >.
+            </div>
+          </div>
+          <div class="col-auto">
+            <a class="link-light small" href="#!">Privacidad</a>
+            <span class="text-white mx-1">&middot;</span>
+            <a class="link-light small" href="#!">Términos y condiciones</a>
+            <span class="text-white mx-1">&middot;</span>
+            <a class="link-light small" href="contact.html">Contacto</a>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- Bootstrap core JS-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- Core theme JS-->
+    <script src="js/scripts.js"></script>
+    <script src="js/jquery.blink.js"></script>
+  </body>
+</html>
